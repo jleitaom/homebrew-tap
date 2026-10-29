@@ -1,6 +1,6 @@
 cask "gutter" do
-  version "0.2.0"
-  sha256 "4855c73dbfcad3dfa7032a03631345c2079e09ddcccca845a4bbddca9bba3646"
+  version "0.3.0"
+  sha256 "35b60c5b104c88c0e4d5973acd0cbfe25b0231cfabae183afbdf49cf2eb2d9a2"
 
   url "https://github.com/jleitaom/gutter/releases/download/v#{version}/Gutter-#{version}.zip"
   name "Gutter"
