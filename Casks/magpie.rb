@@ -1,6 +1,6 @@
 cask "magpie" do
   version "1.0.0"
-  sha256 "c7fd0879ec06855a7239e4a51f49a736ab89d4867288f320391cee3df42f9c2f"
+  sha256 "67e63283bee2fed3191eb5974fb42f02d4164a34e92661dc9bbb8ef152fbbb2a"
 
   url "https://github.com/jleitaom/magpie/releases/download/v#{version}/Magpie-#{version}.zip"
   name "Magpie"
@@ -14,7 +14,7 @@ cask "magpie" do
 
   # Magpie updates itself with Sparkle.
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Magpie.app"
 
